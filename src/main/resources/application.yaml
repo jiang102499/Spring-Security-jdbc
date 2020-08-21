@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: sa
+    password: 584520
+    url: jdbc:mysql://192.168.31.3:3306/security?serverTimezone=UTC&characterEncoding=UTF-8&userUnicode=true&autoReconnect=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  type-aliases-package: com.kuang.pojo
